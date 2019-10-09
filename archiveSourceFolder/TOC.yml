@@ -1,5 +1,5 @@
 - name: Index
-  href: index.md?toc=1
+  href: index.md
   items:
     - name: content
       items:

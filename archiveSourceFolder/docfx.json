@@ -41,26 +41,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/DocsE2EArchiveSource/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None",
-      "feedback_github_repo": "OPS-E2E-PPE/docs-archive-test-source",
-      "feedback_product_url": "https://github.com/OPS-E2E-PPE/docs-archive-test-source",
-      "brand": "brandText",
-      "searchScope": [
-        "searchScope1",
-        "searchScope2"
-      ],
-      "contributors_to_exclude": [
-        "contributorsToExclude1",
-        "contributorsToExclude2"
-      ],
-      "featureFlags": [
-        "featureFlags1",
-        "featureFlags2"
-      ],
-      "learn_banner_products": [
-        "learnBannerProducts1",
-        "learnBannerProducts2"
-      ]
+      "feedback_system": "None"
     },
     "fileMetadata": {},
     "template": [],
