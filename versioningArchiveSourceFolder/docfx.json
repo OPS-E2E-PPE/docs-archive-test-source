@@ -6,7 +6,6 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "group": "monikers",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -18,7 +17,8 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices.md"
-        ]
+        ],
+        "group": "monikers"
       }
     ],
     "resource": [
@@ -27,7 +27,6 @@
           "**/*.png",
           "**/*.jpg"
         ],
-        "group": "monikers",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -35,7 +34,8 @@
           "_themes.pdf/**",
           "**/docfx.json",
           "_repo.en-us/**"
-        ]
+        ],
+        "group": "monikers"
       }
     ],
     "overwrite": [],
@@ -45,16 +45,21 @@
       "extendBreadcrumb": true,
       "feedback_system": "None"
     },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "DocsE2EArchiveVersioningSource",
-    "groups": {
-      "monikers": {
-        "moniker_range": "sql-server-2014 || azuresqldb-current || azuresqldb-mi-current || azure-sqldw-latest || >= aps-pdw-2016 || >= sql-server-2016 || >= sql-server-linux-2017 || sql-server-previousversions || sqlallproducts-allversions",
-        "dest": "temp2016a"
+    "fileMetadata": {
+      "exclude_monikers": {
+        "content/**/*.md": [
+          "sql-server-2014"
+        ]
       }
     },
-    "markdownEngineName": "markdig"
-    
+    "template": [],
+    "dest": "DocsE2EArchiveVersioningSource",
+    "markdownEngineName": "markdig",
+    "groups": {
+      "monikers": {
+        "dest": "temp2016a",
+        "moniker_range": "sql-server-2014 || azuresqldb-current || azuresqldb-mi-current || azure-sqldw-latest || >= aps-pdw-2016 || >= sql-server-2016 || >= sql-server-linux-2017 || sql-server-previousversions || sqlallproducts-allversions"
+      }
+    }
   }
 }
