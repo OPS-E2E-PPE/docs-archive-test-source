@@ -1,6 +1,14 @@
 {
   "redirections": [
     {
+      "source_path": "versioningArchiveSourceFolder/content/someContent.md",
+      "redirect_url": "/previous-versions/jesongtestarchive/azuresqldb-current/content/someContent",
+      "redirect_document_id": false,
+      "monikers": [
+        "azuresqldb-current"
+      ]
+    },
+    {
       "source_path": "archiveSourceFolder/content/redirectContent.md",
       "redirect_url": "/",
       "redirect_document_id": false
