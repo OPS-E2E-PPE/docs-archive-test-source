@@ -5,4 +5,4 @@ title: Some Non Version Content
 
 ## content
 
-[Index](../../index.md)
+[Index](../index.md)
