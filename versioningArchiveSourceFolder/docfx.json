@@ -14,11 +14,32 @@
           "_themes.pdf/**",
           "**/docfx.json",
           "_repo.en-us/**",
+          "non-version/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices.md"
         ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md"
+        ]
+        "src": "non-version",
+        "dest": "non-v"
       }
     ],
     "resource": [
@@ -34,8 +55,25 @@
           "_themes/**",
           "_themes.pdf/**",
           "**/docfx.json",
+          "_repo.en-us/**",
+          "non-version/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
           "_repo.en-us/**"
         ]
+        "src": "non-version",
+        "dest": "non-v"
       }
     ],
     "overwrite": [],
