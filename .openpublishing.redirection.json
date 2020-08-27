@@ -1,6 +1,14 @@
 {
   "redirections": [
     {
+      "source_path": "versioningArchiveSourceFolder/content/someContent.md",
+      "redirect_url": "/previous-versions/jesongtestarchive/content/someContent",
+      "redirect_document_id": false,
+      "monikers": [
+        "azure-sqldw-latest"
+      ]
+    },
+    {
       "source_path": "archiveSourceFolder/content/redirectContent.md",
       "redirect_url": "/",
       "redirect_document_id": false
