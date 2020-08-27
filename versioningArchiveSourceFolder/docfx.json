@@ -37,7 +37,7 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices.md"
-        ]
+        ],
         "src": "non-version",
         "dest": "non-v"
       }
@@ -71,7 +71,7 @@
           "_themes.pdf/**",
           "**/docfx.json",
           "_repo.en-us/**"
-        ]
+        ],
         "src": "non-version",
         "dest": "non-v"
       }
