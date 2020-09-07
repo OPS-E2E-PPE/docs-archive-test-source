@@ -1,6 +1,0 @@
-- name: Index
-  items:
-    - name: content
-      items:
-        - name: contentItem
-          href: versionless.md
