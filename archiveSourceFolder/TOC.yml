@@ -1,7 +1,4 @@
 - name: Index
   href: index.md
   items:
-    - name: content
-      items:
-        - name: contentItem
-          href: content/someContent.md
+  - name: content
