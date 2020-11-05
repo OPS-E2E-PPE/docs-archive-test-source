@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "versioningArchiveSourceFolder/non-version/versionless.md",
+      "redirect_url": "/previous-versions/jesongtestarchive/non-v/versionless",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "archiveSourceFolder/content/redirectContent.md",
       "redirect_url": "/",
       "redirect_document_id": false
