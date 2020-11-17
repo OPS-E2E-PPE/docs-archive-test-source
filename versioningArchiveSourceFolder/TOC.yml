@@ -5,3 +5,5 @@
       items:
         - name: contentItem
           href: content/someContent.md
+        - name: contentYml
+          href: content/someYml.yml

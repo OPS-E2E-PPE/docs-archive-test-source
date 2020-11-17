@@ -1,0 +1,34 @@
+# YamlMime:Landing
+
+title: archive test
+summary: test Landing yaml
+
+landingContent:
+  - title: "Learn to program in C#"
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: link1
+            url: someContent.md
+          - text: link2
+            url: someContent.md
+      - linkListType: overview
+        links:
+          - text: link3
+            url: someContent.md
+          - text: link4
+            url: someContent.md
+  - title: "Learn to install"
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: link1
+            url: someContent.md
+          - text: link2
+            url: someContent.md
+      - linkListType: overview
+        links:
+          - text: link3
+            url: someContent.md
+          - text: link4
+            url: someContent.md
