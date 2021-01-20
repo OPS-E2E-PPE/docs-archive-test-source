@@ -1,9 +1,9 @@
 - name: Index
   href: index.md
   items:
-    - name: content
-      items:
-        - name: contentItem
-          href: content/someContent.md
-        - name: contentYml
-          href: content/someYml.yml
+  - name: content
+    items:
+    - name: contentItem
+      href: content/someContent.md
+    - name: contentYml
+      href: content/someYml.yml
