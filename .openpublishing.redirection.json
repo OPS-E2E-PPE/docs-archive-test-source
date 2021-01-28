@@ -1,6 +1,22 @@
 {
   "redirections": [
     {
+      "source_path": "versioningArchiveSourceFolder/content/someContent.md",
+      "redirect_url": "/archive/yml-archive-version/content/someContent",
+      "redirect_document_id": false,
+      "monikers": [
+        "sql-server-2014"
+      ]
+    },
+    {
+      "source_path": "versioningArchiveSourceFolder/content/someYml.yml",
+      "redirect_url": "/archive/yml-archive-version/content/someYml",
+      "redirect_document_id": false,
+      "monikers": [
+        "sql-server-2014"
+      ]
+    },
+    {
       "source_path": "archiveSourceFolder/content/redirectContent.md",
       "redirect_url": "/",
       "redirect_document_id": false
