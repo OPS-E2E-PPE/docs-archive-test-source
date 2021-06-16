@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "archiveSourceFolder/content/someContent.md",
+      "redirect_url": "/newjesong/content/someContent",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "archiveSourceFolder/content/redirectContent.md",
       "redirect_url": "/",
       "redirect_document_id": false
