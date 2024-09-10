@@ -1,4 +1,0 @@
-- name: Index
-  items:
-    - name: content
-      href: includeToc/toc.yml
